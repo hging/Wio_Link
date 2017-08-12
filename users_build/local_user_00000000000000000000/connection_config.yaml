@@ -1,0 +1,3 @@
+GroveSlidePotentiometerA0:
+  construct_arg_list: {pin: 17, type: ANALOG}
+  sku: '101020036'

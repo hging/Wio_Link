@@ -1,0 +1,793 @@
+"all user's src dirs:"
+./
+"groves:"
+grove_slide_potentiometer
+"include paths:"
+-I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./
+=========================
+Build from source code.
+"all objects:"
+core_esp8266_noniso.o core_esp8266_wiring_pulse.o core_esp8266_wiring_shift.o cont_util.o core_esp8266_wiring.o core_esp8266_wiring_analog.o core_esp8266_si2c.o core_esp8266_timer.o core_esp8266_wiring_digital.o core_esp8266_wiring_pwm.o libc_replacements.o cont.o WString.cpp.o core_esp8266_main.cpp.o Print.cpp.o pgmspace.cpp.o Stream.cpp.o abi.cpp.o Esp.cpp.o Wire.cpp.o WMath.cpp.o debug.cpp.o HardwareSerial.cpp.o  grove_slide_potentiometer.cpp.o sha256.o md5.o base64.o aes.o bignum.o network.cpp.o eeprom.cpp.o circular_buffer.cpp.o wio.cpp.o user_main.cpp.o plugins.cpp.o ota.cpp.o suli2.cpp.o rpc_server.cpp.o rpc_stream.cpp.o  Main.cpp.o rpc_server_registration.cpp.o grove_slide_potentiometer_gen.cpp.o
+""
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o core_esp8266_noniso.o ../../esp8266_arduino/core_esp8266_noniso.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o core_esp8266_wiring_pulse.o ../../esp8266_arduino/core_esp8266_wiring_pulse.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o core_esp8266_wiring_shift.o ../../esp8266_arduino/core_esp8266_wiring_shift.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o cont_util.o ../../esp8266_arduino/cont_util.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o core_esp8266_wiring.o ../../esp8266_arduino/core_esp8266_wiring.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o core_esp8266_wiring_analog.o ../../esp8266_arduino/core_esp8266_wiring_analog.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o core_esp8266_si2c.o ../../esp8266_arduino/core_esp8266_si2c.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o core_esp8266_timer.o ../../esp8266_arduino/core_esp8266_timer.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o core_esp8266_wiring_digital.o ../../esp8266_arduino/core_esp8266_wiring_digital.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o core_esp8266_wiring_pwm.o ../../esp8266_arduino/core_esp8266_wiring_pwm.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o libc_replacements.o ../../esp8266_arduino/libc_replacements.c
+xtensa-lx106-elf-gcc -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -o cont.o ../../esp8266_arduino/cont.s
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o WString.cpp.o ../../esp8266_arduino/WString.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o core_esp8266_main.cpp.o ../../esp8266_arduino/core_esp8266_main.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o Print.cpp.o ../../esp8266_arduino/Print.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o pgmspace.cpp.o ../../esp8266_arduino/pgmspace.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o Stream.cpp.o ../../esp8266_arduino/Stream.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o abi.cpp.o ../../esp8266_arduino/abi.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o Esp.cpp.o ../../esp8266_arduino/Esp.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o Wire.cpp.o ../../esp8266_arduino/Wire.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o WMath.cpp.o ../../esp8266_arduino/WMath.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o debug.cpp.o ../../esp8266_arduino/debug.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o HardwareSerial.cpp.o ../../esp8266_arduino/HardwareSerial.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o grove_slide_potentiometer.cpp.o ../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.cpp
+In file included from ../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.cpp:29:0:
+../../suli/suli2.h:51:18: warning: extra tokens at end of #ifndef directive [enabled by default]
+ #ifndef constrain(amt,low,high)
+                  ^
+In file included from ../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.cpp:29:0:
+../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.h: In member function 'EVENT_T* GroveSlidePotentiometer::attach_event_reporter_for_slide_changed(event_callback_t)':
+../../suli/suli2.h:383:86: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         suli_event_init(&event_##EVENT_NAME , reporter, #EVENT_NAME , EVENT_DATA_TYPE); \
+                                                                                      ^
+../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.h:70:5: note: in expansion of macro 'DEFINE_EVENT'
+     DEFINE_EVENT(slide_changed, SULI_EDT_INT);
+     ^
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o sha256.o ../../node_main/polarssl/sha256.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o md5.o ../../node_main/polarssl/md5.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o base64.o ../../node_main/polarssl/base64.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o aes.o ../../node_main/polarssl/aes.c
+xtensa-lx106-elf-gcc  -c -Os -O2 -Wpointer-arith -Wno-implicit-function-declaration -Wl,-EL -fno-inline-functions -nostdlib -mlongcalls -mtext-section-literals -falign-functions=4 -MMD -std=c99 -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o bignum.o ../../node_main/polarssl/bignum.c
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o network.cpp.o ../../node_main/network.cpp
+../../node_main/network.cpp: In function 'uint8_t* extract_substr(uint8_t*, uint8_t*)':
+../../node_main/network.cpp:151:41: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'const char*' [-fpermissive]
+     uint8_t *ptr = os_strchr(input, '\t');
+                                         ^
+../../node_main/network.cpp:151:41: warning: invalid conversion from 'char*' to 'uint8_t* {aka unsigned char*}' [-fpermissive]
+../../node_main/network.cpp: In function 'bool extract_ip(uint8_t*, uint8_t*)':
+../../node_main/network.cpp:184:39: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'const char*' [-fpermissive]
+     while ((ptr = os_strchr(input, '.')) != NULL)
+                                       ^
+../../node_main/network.cpp:184:39: warning: invalid conversion from 'char*' to 'uint8_t* {aka unsigned char*}' [-fpermissive]
+../../node_main/network.cpp: In function 'void format_server_address(uint8_t*, uint8_t*)':
+../../node_main/network.cpp:213:38: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'const char*' [-fpermissive]
+     if ((ptr = os_strstr(input, "://")) != NULL)
+                                      ^
+In file included from ../../node_main/esp8266.h:34:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/ets_sys.h:170:7: warning:   initializing argument 1 of 'char* ets_strstr(const char*, const char*)' [-fpermissive]
+ char *ets_strstr(const char *haystack, const char *needle);
+       ^
+../../node_main/network.cpp:213:38: warning: invalid conversion from 'char*' to 'uint8_t* {aka unsigned char*}' [-fpermissive]
+     if ((ptr = os_strstr(input, "://")) != NULL)
+                                      ^
+../../node_main/network.cpp:217:36: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'const char*' [-fpermissive]
+     if ((ptr = os_strchr(input, '/')) != NULL)
+                                    ^
+../../node_main/network.cpp:217:36: warning: invalid conversion from 'char*' to 'uint8_t* {aka unsigned char*}' [-fpermissive]
+../../node_main/network.cpp:221:45: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'const char*' [-fpermissive]
+     os_memcpy(output, input, os_strlen(input)+1);
+                                             ^
+In file included from ../../node_main/esp8266.h:34:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/ets_sys.h:167:5: warning:   initializing argument 1 of 'int ets_strlen(const char*)' [-fpermissive]
+ int ets_strlen(const char *s);
+     ^
+../../node_main/network.cpp: In function 'void print_online_status()':
+../../node_main/network.cpp:229:86: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     network_puts(ota_stream_tx_buffer, "{\"msg_type\":\"online_status\",\"msg\":", 34);
+                                                                                      ^
+../../node_main/network.cpp:232:50: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         network_puts(ota_stream_tx_buffer, "1", 1);
+                                                  ^
+../../node_main/network.cpp:235:50: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         network_puts(ota_stream_tx_buffer, "0", 1);
+                                                  ^
+../../node_main/network.cpp:237:50: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     network_puts(ota_stream_tx_buffer, "}\r\n", 3);
+                                                  ^
+../../node_main/network.cpp: In function 'void parse_config_message(int, char*, short unsigned int, char*, char*)':
+../../node_main/network.cpp:286:58: warning: invalid conversion from 'char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, device_desc, length);
+                                                          ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:306:69: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, FW_VERSION, strlen(FW_VERSION));
+                                                                     ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:307:48: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "\r\n", 2);
+                                                ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:324:73: warning: invalid conversion from 'char*' to 'uint8_t* {aka unsigned char*}' [-fpermissive]
+         ptr = extract_substr(pkey, EEPROM.getDataPtr() + EEP_OFFSET_SSID);
+                                                                         ^
+../../node_main/network.cpp:149:17: warning:   initializing argument 1 of 'uint8_t* extract_substr(uint8_t*, uint8_t*)' [-fpermissive]
+ static uint8_t *extract_substr(uint8_t *input, uint8_t *output)
+                 ^
+../../node_main/network.cpp:407:50: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "ok\r\n", 4);
+                                                  ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:408:50: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "ok\r\n", 4);
+                                                  ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:409:50: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "ok\r\n", 4);
+                                                  ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:427:73: warning: invalid conversion from 'char*' to 'uint8_t* {aka unsigned char*}' [-fpermissive]
+         ptr = extract_substr(pkey, EEPROM.getDataPtr() + EEP_OFFSET_SSID);
+                                                                         ^
+../../node_main/network.cpp:149:17: warning:   initializing argument 1 of 'uint8_t* extract_substr(uint8_t*, uint8_t*)' [-fpermissive]
+ static uint8_t *extract_substr(uint8_t *input, uint8_t *output)
+                 ^
+../../node_main/network.cpp:457:50: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "ok\r\n", 4);
+                                                  ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:458:50: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "ok\r\n", 4);
+                                                  ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:459:50: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "ok\r\n", 4);
+                                                  ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:497:50: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "ok\r\n", 4);
+                                                  ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:498:50: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "ok\r\n", 4);
+                                                  ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:499:50: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "ok\r\n", 4);
+                                                  ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:513:22: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         char *flag = "0";
+                      ^
+../../node_main/network.cpp:517:78: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'char*' [-fpermissive]
+         if (magic == 0x12345678) flag = EEPROM.getDataPtr() + EEP_DEBUG_FLAG + 4;
+                                                                              ^
+../../node_main/network.cpp:521:46: warning: invalid conversion from 'char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, flag, 1);
+                                              ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:522:48: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "\r\n", 2);
+                                                ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp: In function 'void udp_recv_cb(void*, char*, short unsigned int)':
+../../node_main/network.cpp:550:40: warning: invalid conversion from 'char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+     wifi_get_macaddr(STATION_IF, hwaddr);
+                                        ^
+In file included from ../../node_main/esp8266.h:44:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/user_interface.h:309:6: warning:   initializing argument 2 of 'bool wifi_get_macaddr(uint8, uint8*)' [-fpermissive]
+ bool wifi_get_macaddr(uint8 if_index, uint8 *macaddr);
+      ^
+../../node_main/network.cpp:559:80: warning: invalid conversion from 'uint8* {aka unsigned char*}' to 'char*' [-fpermissive]
+     parse_config_message(0, pusrdata, length, hwaddr, conn->proto.udp->local_ip);
+                                                                                ^
+../../node_main/network.cpp:261:13: warning:   initializing argument 5 of 'void parse_config_message(int, char*, short unsigned int, char*, char*)' [-fpermissive]
+ static void parse_config_message(int source, char *pusrdata, unsigned short length, char *hwaddr, char *ip)
+             ^
+../../node_main/network.cpp: In function 'void send_ap_item(void*)':
+../../node_main/network.cpp:580:62: warning: invalid conversion from 'uint32_t {aka unsigned int}' to 'void*' [-fpermissive]
+             os_timer_setfn(&timer_tx[0], send_ap_item, source);
+                                                              ^
+In file included from ../../node_main/esp8266.h:34:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/ets_sys.h:162:6: warning:   initializing argument 3 of 'void ets_timer_setfn(ETSTimer*, void (*)(void*), void*)' [-fpermissive]
+ void ets_timer_setfn(ETSTimer *t, ETSTimerFunc *fn, void *parg);
+      ^
+../../node_main/network.cpp:582:57: warning: invalid conversion from 'char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, ssid, strlen(ssid));
+                                                         ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp:586:62: warning: invalid conversion from 'uint32_t {aka unsigned int}' to 'void*' [-fpermissive]
+             os_timer_setfn(&timer_tx[0], send_ap_item, source);
+                                                              ^
+In file included from ../../node_main/esp8266.h:34:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/ets_sys.h:162:6: warning:   initializing argument 3 of 'void ets_timer_setfn(ETSTimer*, void (*)(void*), void*)' [-fpermissive]
+ void ets_timer_setfn(ETSTimer *t, ETSTimerFunc *fn, void *parg);
+      ^
+../../node_main/network.cpp:595:48: warning: invalid conversion from 'const char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             espconn_sendto(&udp_conn, "\r\n", 2);
+                                                ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:303:8: warning:   initializing argument 2 of 'sint16 espconn_sendto(espconn*, uint8*, uint16)' [-fpermissive]
+ sint16 espconn_sendto(struct espconn *espconn, uint8 *psent, uint16 length);
+        ^
+../../node_main/network.cpp: In function 'void connection_recv_cb(void*, char*, short unsigned int)':
+../../node_main/network.cpp:665:132: warning: invalid conversion from 'int*' to 'size_t* {aka unsigned int*}' [-fpermissive]
+             aes_crypt_cfb128(&aes_ctx_u[index], AES_DECRYPT, length - 16, &iv_offset_u[index], iv_u[index], pusrdata + 16, pusrdata);
+                                                                                                                                    ^
+In file included from ../../node_main/network.cpp:29:0:
+../../node_main/polarssl/aes.h:183:5: warning:   initializing argument 4 of 'int aes_crypt_cfb128(aes_context*, int, size_t, size_t*, unsigned char*, const unsigned char*, unsigned char*)' [-fpermissive]
+ int aes_crypt_cfb128( aes_context *ctx,
+     ^
+../../node_main/network.cpp:665:118: warning: invalid conversion from 'char*' to 'const unsigned char*' [-fpermissive]
+             aes_crypt_cfb128(&aes_ctx_u[index], AES_DECRYPT, length - 16, &iv_offset_u[index], iv_u[index], pusrdata + 16, pusrdata);
+                                                                                                                      ^
+In file included from ../../node_main/network.cpp:29:0:
+../../node_main/polarssl/aes.h:183:5: warning:   initializing argument 6 of 'int aes_crypt_cfb128(aes_context*, int, size_t, size_t*, unsigned char*, const unsigned char*, unsigned char*)' [-fpermissive]
+ int aes_crypt_cfb128( aes_context *ctx,
+     ^
+../../node_main/network.cpp:665:132: warning: invalid conversion from 'char*' to 'unsigned char*' [-fpermissive]
+             aes_crypt_cfb128(&aes_ctx_u[index], AES_DECRYPT, length - 16, &iv_offset_u[index], iv_u[index], pusrdata + 16, pusrdata);
+                                                                                                                                    ^
+In file included from ../../node_main/network.cpp:29:0:
+../../node_main/polarssl/aes.h:183:5: warning:   initializing argument 7 of 'int aes_crypt_cfb128(aes_context*, int, size_t, size_t*, unsigned char*, const unsigned char*, unsigned char*)' [-fpermissive]
+ int aes_crypt_cfb128( aes_context *ctx,
+     ^
+../../node_main/network.cpp:674:118: warning: invalid conversion from 'int*' to 'size_t* {aka unsigned int*}' [-fpermissive]
+         aes_crypt_cfb128(&aes_ctx_u[index], AES_DECRYPT, length, &iv_offset_u[index], iv_u[index], pusrdata, pusrdata);
+                                                                                                                      ^
+In file included from ../../node_main/network.cpp:29:0:
+../../node_main/polarssl/aes.h:183:5: warning:   initializing argument 4 of 'int aes_crypt_cfb128(aes_context*, int, size_t, size_t*, unsigned char*, const unsigned char*, unsigned char*)' [-fpermissive]
+ int aes_crypt_cfb128( aes_context *ctx,
+     ^
+../../node_main/network.cpp:674:118: warning: invalid conversion from 'char*' to 'const unsigned char*' [-fpermissive]
+         aes_crypt_cfb128(&aes_ctx_u[index], AES_DECRYPT, length, &iv_offset_u[index], iv_u[index], pusrdata, pusrdata);
+                                                                                                                      ^
+In file included from ../../node_main/network.cpp:29:0:
+../../node_main/polarssl/aes.h:183:5: warning:   initializing argument 6 of 'int aes_crypt_cfb128(aes_context*, int, size_t, size_t*, unsigned char*, const unsigned char*, unsigned char*)' [-fpermissive]
+ int aes_crypt_cfb128( aes_context *ctx,
+     ^
+../../node_main/network.cpp:674:118: warning: invalid conversion from 'char*' to 'unsigned char*' [-fpermissive]
+         aes_crypt_cfb128(&aes_ctx_u[index], AES_DECRYPT, length, &iv_offset_u[index], iv_u[index], pusrdata, pusrdata);
+                                                                                                                      ^
+In file included from ../../node_main/network.cpp:29:0:
+../../node_main/polarssl/aes.h:183:5: warning:   initializing argument 7 of 'int aes_crypt_cfb128(aes_context*, int, size_t, size_t*, unsigned char*, const unsigned char*, unsigned char*)' [-fpermissive]
+ int aes_crypt_cfb128( aes_context *ctx,
+     ^
+../../node_main/network.cpp:684:60: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+                 network_puts(tx_buffer, "##ALIVE##\r\n", 11);
+                                                            ^
+../../node_main/network.cpp: In function 'void connection_tx_write_finish_cb(void*)':
+../../node_main/network.cpp:742:109: warning: invalid conversion from 'int*' to 'size_t* {aka unsigned int*}' [-fpermissive]
+         aes_crypt_cfb128(&aes_ctx_d[index], AES_ENCRYPT, size2, &iv_offset_d[index], iv_d[index], data, data);
+                                                                                                             ^
+In file included from ../../node_main/network.cpp:29:0:
+../../node_main/polarssl/aes.h:183:5: warning:   initializing argument 4 of 'int aes_crypt_cfb128(aes_context*, int, size_t, size_t*, unsigned char*, const unsigned char*, unsigned char*)' [-fpermissive]
+ int aes_crypt_cfb128( aes_context *ctx,
+     ^
+../../node_main/network.cpp:742:109: warning: invalid conversion from 'char*' to 'const unsigned char*' [-fpermissive]
+         aes_crypt_cfb128(&aes_ctx_d[index], AES_ENCRYPT, size2, &iv_offset_d[index], iv_d[index], data, data);
+                                                                                                             ^
+In file included from ../../node_main/network.cpp:29:0:
+../../node_main/polarssl/aes.h:183:5: warning:   initializing argument 6 of 'int aes_crypt_cfb128(aes_context*, int, size_t, size_t*, unsigned char*, const unsigned char*, unsigned char*)' [-fpermissive]
+ int aes_crypt_cfb128( aes_context *ctx,
+     ^
+../../node_main/network.cpp:742:109: warning: invalid conversion from 'char*' to 'unsigned char*' [-fpermissive]
+         aes_crypt_cfb128(&aes_ctx_d[index], AES_ENCRYPT, size2, &iv_offset_d[index], iv_d[index], data, data);
+                                                                                                             ^
+In file included from ../../node_main/network.cpp:29:0:
+../../node_main/polarssl/aes.h:183:5: warning:   initializing argument 7 of 'int aes_crypt_cfb128(aes_context*, int, size_t, size_t*, unsigned char*, const unsigned char*, unsigned char*)' [-fpermissive]
+ int aes_crypt_cfb128( aes_context *ctx,
+     ^
+../../node_main/network.cpp:743:41: warning: invalid conversion from 'char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+         espconn_send(p_conn, data, size2);
+                                         ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:281:7: warning:   initializing argument 2 of 'sint8 espconn_send(espconn*, uint8*, uint16)' [-fpermissive]
+ sint8 espconn_send(struct espconn *espconn, uint8 *psent, uint16 length);
+       ^
+../../node_main/network.cpp: In function 'void connection_confirm_hello(void*)':
+../../node_main/network.cpp:847:111: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+                 network_puts(ota_stream_tx_buffer, "{\"msg_type\":\"ota_result\",\"msg\":\"success\"}\r\n", 43);
+                                                                                                               ^
+../../node_main/network.cpp:853:104: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+             network_puts(ota_stream_tx_buffer, "{\"msg_type\":\"ota_result\",\"msg\":\"fail\"}\r\n", 40);
+                                                                                                        ^
+In file included from ../../node_main/esp8266.h:36:0,
+                 from ../../node_main/network.cpp:23:
+../../node_main/network.cpp: In function 'void connection_send_hello(void*)':
+../../esp8266_sdk/include/mem.h:17:48: warning: invalid conversion from 'void*' to 'uint8_t* {aka unsigned char*}' [-fpermissive]
+ #define os_malloc(s)      pvPortMalloc(s, "", 0)
+                                                ^
+../../node_main/network.cpp:911:21: note: in expansion of macro 'os_malloc'
+     uint8_t *buff = os_malloc(4 + SN_LEN + 32);
+                     ^
+../../node_main/network.cpp: In function 'void connection_init(void*)':
+../../node_main/network.cpp:1011:123: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'char*' [-fpermissive]
+     char *server_ip = (index == 0) ? (EEPROM.getDataPtr() + EEP_DATA_SERVER_IP) : (EEPROM.getDataPtr() + EEP_OTA_SERVER_IP);
+                                                                                                                           ^
+../../node_main/network.cpp: In function 'void dns_resolved_callback(const char*, ip_addr_t*, void*)':
+../../node_main/network.cpp:1053:129: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'char*' [-fpermissive]
+     char *server_addr = (index == 0) ? (EEPROM.getDataPtr() + EEP_DATA_SERVER_ADDR) : (EEPROM.getDataPtr() + EEP_OTA_SERVER_ADDR);
+                                                                                                                                 ^
+../../node_main/network.cpp:1054:123: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'char*' [-fpermissive]
+     char *server_ip = (index == 0) ? (EEPROM.getDataPtr() + EEP_DATA_SERVER_IP) : (EEPROM.getDataPtr() + EEP_OTA_SERVER_IP);
+                                                                                                                           ^
+../../node_main/network.cpp: In function 'void start_resolving(void*)':
+../../node_main/network.cpp:1091:129: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'char*' [-fpermissive]
+     char *server_addr = (index == 0) ? (EEPROM.getDataPtr() + EEP_DATA_SERVER_ADDR) : (EEPROM.getDataPtr() + EEP_OTA_SERVER_ADDR);
+                                                                                                                                 ^
+../../node_main/network.cpp:1092:123: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'char*' [-fpermissive]
+     char *server_ip = (index == 0) ? (EEPROM.getDataPtr() + EEP_DATA_SERVER_IP) : (EEPROM.getDataPtr() + EEP_OTA_SERVER_IP);
+                                                                                                                           ^
+../../node_main/network.cpp:1098:86: warning: invalid conversion from 'void*' to 'espconn*' [-fpermissive]
+     err_t err = espconn_gethostbyname(arg, server_addr, &addr, &dns_resolved_callback);
+                                                                                      ^
+In file included from ../../node_main/esp8266.h:33:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/espconn.h:433:7: warning:   initializing argument 1 of 'err_t espconn_gethostbyname(espconn*, const char*, ip_addr_t*, dns_found_callback)' [-fpermissive]
+ err_t espconn_gethostbyname(struct espconn *pespconn, const char *hostname, ip_addr_t *addr, dns_found_callback found);
+       ^
+../../node_main/network.cpp: In function 'void network_normal_mode(int)':
+../../node_main/network.cpp:1218:78: warning: invalid conversion from 'uint8* {aka unsigned char*}' to 'char*' [-fpermissive]
+             os_strncpy(config.ssid, EEPROM.getDataPtr() + EEP_OFFSET_SSID, 32);
+                                                                              ^
+In file included from ../../node_main/esp8266.h:34:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/ets_sys.h:169:7: warning:   initializing argument 1 of 'char* ets_strncpy(char*, const char*, size_t)' [-fpermissive]
+ char *ets_strncpy(char *dest, const char *src, size_t n);
+       ^
+../../node_main/network.cpp:1218:57: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'const char*' [-fpermissive]
+             os_strncpy(config.ssid, EEPROM.getDataPtr() + EEP_OFFSET_SSID, 32);
+                                                         ^
+In file included from ../../node_main/esp8266.h:34:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/ets_sys.h:169:7: warning:   initializing argument 2 of 'char* ets_strncpy(char*, const char*, size_t)' [-fpermissive]
+ char *ets_strncpy(char *dest, const char *src, size_t n);
+       ^
+../../node_main/network.cpp:1219:86: warning: invalid conversion from 'uint8* {aka unsigned char*}' to 'char*' [-fpermissive]
+             os_strncpy(config.password, EEPROM.getDataPtr() + EEP_OFFSET_PASSWORD, 64);
+                                                                                      ^
+In file included from ../../node_main/esp8266.h:34:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/ets_sys.h:169:7: warning:   initializing argument 1 of 'char* ets_strncpy(char*, const char*, size_t)' [-fpermissive]
+ char *ets_strncpy(char *dest, const char *src, size_t n);
+       ^
+../../node_main/network.cpp:1219:61: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'const char*' [-fpermissive]
+             os_strncpy(config.password, EEPROM.getDataPtr() + EEP_OFFSET_PASSWORD, 64);
+                                                             ^
+In file included from ../../node_main/esp8266.h:34:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/ets_sys.h:169:7: warning:   initializing argument 2 of 'char* ets_strncpy(char*, const char*, size_t)' [-fpermissive]
+ char *ets_strncpy(char *dest, const char *src, size_t n);
+       ^
+../../node_main/network.cpp: In function 'void ap_scan_done(void*, STATUS)':
+../../node_main/network.cpp:1270:71: warning: invalid conversion from 'uint8_t {aka unsigned char}' to 'void*' [-fpermissive]
+             os_timer_setfn(&timer_tx[0], send_ap_item, scan_cmd_source);
+                                                                       ^
+In file included from ../../node_main/esp8266.h:34:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/ets_sys.h:162:6: warning:   initializing argument 3 of 'void ets_timer_setfn(ETSTimer*, void (*)(void*), void*)' [-fpermissive]
+ void ets_timer_setfn(ETSTimer *t, ETSTimerFunc *fn, void *parg);
+      ^
+../../node_main/network.cpp: In function 'void network_config_mode()':
+../../node_main/network.cpp:1297:39: warning: invalid conversion from 'char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+     wifi_get_macaddr(SOFTAP_IF, hwaddr);
+                                       ^
+In file included from ../../node_main/esp8266.h:44:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/user_interface.h:309:6: warning:   initializing argument 2 of 'bool wifi_get_macaddr(uint8, uint8*)' [-fpermissive]
+ bool wifi_get_macaddr(uint8 if_index, uint8 *macaddr);
+      ^
+../../node_main/network.cpp:1301:43: warning: invalid conversion from 'uint8* {aka unsigned char*}' to 'const char*' [-fpermissive]
+     config->ssid_len = strlen(config->ssid);
+                                           ^
+../../node_main/network.cpp:1340:48: warning: invalid conversion from 'char*' to 'uint8* {aka unsigned char*}' [-fpermissive]
+             wifi_get_macaddr(STATION_IF, hwaddr);
+                                                ^
+In file included from ../../node_main/esp8266.h:44:0,
+                 from ../../node_main/network.cpp:23:
+../../esp8266_sdk/include/user_interface.h:309:6: warning:   initializing argument 2 of 'bool wifi_get_macaddr(uint8, uint8*)' [-fpermissive]
+ bool wifi_get_macaddr(uint8 if_index, uint8 *macaddr);
+      ^
+../../node_main/network.cpp:1342:68: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+             parse_config_message(1, msg, os_strlen(msg), hwaddr, "");
+                                                                    ^
+../../node_main/network.cpp: In function 'void network_setup()':
+../../node_main/network.cpp:1356:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     char *flag = "0";
+                  ^
+../../node_main/network.cpp:1360:74: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'char*' [-fpermissive]
+     if (magic == 0x12345678) flag = EEPROM.getDataPtr() + EEP_DEBUG_FLAG + 4;
+                                                                          ^
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o eeprom.cpp.o ../../node_main/eeprom.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o circular_buffer.cpp.o ../../node_main/circular_buffer.cpp
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o wio.cpp.o ../../node_main/wio.cpp
+In file included from ../../node_main/wio.h:25:0,
+                 from ../../node_main/wio.cpp:22:
+../../suli/suli2.h:51:18: warning: extra tokens at end of #ifndef directive [enabled by default]
+ #ifndef constrain(amt,low,high)
+                  ^
+../../node_main/wio.cpp:33:44: warning: cannot declare member function 'static void Wio::postEvent(char*)' to have static linkage [-fpermissive]
+ static void Wio::postEvent(char *event_name)
+                                            ^
+../../node_main/wio.cpp:38:61: warning: cannot declare member function 'static void Wio::postEvent(char*, bool)' to have static linkage [-fpermissive]
+ static void Wio::postEvent(char *event_name, bool event_data)
+                                                             ^
+../../node_main/wio.cpp:43:64: warning: cannot declare member function 'static void Wio::postEvent(char*, uint8_t)' to have static linkage [-fpermissive]
+ static void Wio::postEvent(char *event_name, uint8_t event_data)
+                                                                ^
+../../node_main/wio.cpp:48:63: warning: cannot declare member function 'static void Wio::postEvent(char*, int8_t)' to have static linkage [-fpermissive]
+ static void Wio::postEvent(char *event_name, int8_t event_data)
+                                                               ^
+../../node_main/wio.cpp:53:65: warning: cannot declare member function 'static void Wio::postEvent(char*, uint16_t)' to have static linkage [-fpermissive]
+ static void Wio::postEvent(char *event_name, uint16_t event_data)
+                                                                 ^
+../../node_main/wio.cpp:58:64: warning: cannot declare member function 'static void Wio::postEvent(char*, int16_t)' to have static linkage [-fpermissive]
+ static void Wio::postEvent(char *event_name, int16_t event_data)
+                                                                ^
+../../node_main/wio.cpp:63:65: warning: cannot declare member function 'static void Wio::postEvent(char*, uint32_t)' to have static linkage [-fpermissive]
+ static void Wio::postEvent(char *event_name, uint32_t event_data)
+                                                                 ^
+../../node_main/wio.cpp:68:64: warning: cannot declare member function 'static void Wio::postEvent(char*, int32_t)' to have static linkage [-fpermissive]
+ static void Wio::postEvent(char *event_name, int32_t event_data)
+                                                                ^
+../../node_main/wio.cpp:73:62: warning: cannot declare member function 'static void Wio::postEvent(char*, float)' to have static linkage [-fpermissive]
+ static void Wio::postEvent(char *event_name, float event_data)
+                                                              ^
+../../node_main/wio.cpp:78:62: warning: cannot declare member function 'static void Wio::postEvent(char*, char*)' to have static linkage [-fpermissive]
+ static void Wio::postEvent(char *event_name, char *event_data)
+                                                              ^
+../../node_main/wio.cpp:83:64: warning: cannot declare member function 'static void Wio::postEvent(char*, String&)' to have static linkage [-fpermissive]
+ static void Wio::postEvent(char *event_name, String &event_data)
+                                                                ^
+../../node_main/wio.cpp: In static member function 'static void Wio::postEvent(char*, String&)':
+../../node_main/wio.cpp:85:68: warning: invalid conversion from 'const void*' to 'void*' [-fpermissive]
+     rpc_server_event_report_from_user(event_name, event_data.c_str(), TYPE_STRING);
+                                                                    ^
+In file included from ../../node_main/wio.h:27:0,
+                 from ../../node_main/wio.cpp:22:
+../../rpc_server/rpc_server.h:110:6: warning:   initializing argument 2 of 'void rpc_server_event_report_from_user(char*, void*, int)' [-fpermissive]
+ void rpc_server_event_report_from_user(char *event_name, void *event_data, int event_data_type);
+      ^
+../../node_main/wio.cpp: At global scope:
+../../node_main/wio.cpp:88:43: warning: cannot declare member function 'static bool Wio::getEvent(event_t*)' to have static linkage [-fpermissive]
+ static bool Wio::getEvent(event_t *p_event)
+                                           ^
+../../node_main/wio.cpp: In member function 'void Wio::_registerVar(char*, void*, int)':
+../../node_main/wio.cpp:102:106: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     rpc_server_register_method("variable", var_name, METHOD_READ, __plugin_variable_read, this, arg_types);
+                                                                                                          ^
+../../node_main/wio.cpp:107:108: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     rpc_server_register_method("variable", var_name, METHOD_WRITE, __plugin_variable_write, this, arg_types);
+                                                                                                            ^
+../../node_main/wio.cpp: In member function 'void Wio::registerVar(char*, String&)':
+../../node_main/wio.cpp:193:38: warning: invalid conversion from 'const void*' to 'void*' [-fpermissive]
+     _registerVar(var_name, var.c_str() , TYPE_STRING);
+                                      ^
+../../node_main/wio.cpp:95:6: warning:   initializing argument 2 of 'void Wio::_registerVar(char*, void*, int)' [-fpermissive]
+ void Wio::_registerVar(char *var_name, void *var_ptr, int var_type)
+      ^
+../../node_main/wio.cpp: In member function 'void Wio::registerFunc(char*, rpc_function_t)':
+../../node_main/wio.cpp:225:109: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     rpc_server_register_method("function", func_name, METHOD_WRITE, __plugin_function_write, this, arg_types);
+                                                                                                             ^
+../../node_main/wio.cpp: In function 'bool __plugin_function_write(void*, char*, void*)':
+../../node_main/wio.cpp:359:87: warning: invalid conversion from 'char*' to 'unsigned char*' [-fpermissive]
+         if (base64_decode(pass_in_para, &len, (const unsigned char *)pass_in_para, len) != 0)
+                                                                                       ^
+In file included from ../../node_main/wio.cpp:23:0:
+../../node_main/polarssl/base64.h:70:5: warning:   initializing argument 1 of 'int base64_decode(unsigned char*, size_t*, const unsigned char*, size_t)' [-fpermissive]
+ int base64_decode( unsigned char *dst, size_t *dlen,
+     ^
+../../node_main/wio.cpp:359:87: warning: invalid conversion from 'int*' to 'size_t* {aka unsigned int*}' [-fpermissive]
+         if (base64_decode(pass_in_para, &len, (const unsigned char *)pass_in_para, len) != 0)
+                                                                                       ^
+In file included from ../../node_main/wio.cpp:23:0:
+../../node_main/polarssl/base64.h:70:5: warning:   initializing argument 2 of 'int base64_decode(unsigned char*, size_t*, const unsigned char*, size_t)' [-fpermissive]
+ int base64_decode( unsigned char *dst, size_t *dlen,
+     ^
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o user_main.cpp.o ../../node_main/user_main.cpp
+In file included from ../../rpc_server/rpc_server.h:25:0,
+                 from ../../node_main/user_main.cpp:15:
+../../suli/suli2.h:51:18: warning: extra tokens at end of #ifndef directive [enabled by default]
+ #ifndef constrain(amt,low,high)
+                  ^
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o plugins.cpp.o ../../node_main/plugins.cpp
+In file included from ../../node_main/plugins.cpp:23:0:
+../../suli/suli2.h:51:18: warning: extra tokens at end of #ifndef directive [enabled by default]
+ #ifndef constrain(amt,low,high)
+                  ^
+../../node_main/plugins.cpp: In function 'bool __plugin_setting_dataxserver(void*, char*, void*)':
+../../node_main/plugins.cpp:135:64: warning: invalid conversion from 'char*' to 'uint8_t* {aka unsigned char*}' [-fpermissive]
+     if (extract_ip(ip, EEPROM.getDataPtr() + EEP_DATA_SERVER_IP))
+                                                                ^
+In file included from ../../node_main/plugins.cpp:26:0:
+../../node_main/network.h:57:6: warning:   initializing argument 1 of 'bool extract_ip(uint8_t*, uint8_t*)' [-fpermissive]
+ bool extract_ip(uint8_t *input, uint8_t *output);
+      ^
+../../node_main/plugins.cpp: In function 'void rpc_server_register_plugins()':
+../../node_main/plugins.cpp:161:95: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     rpc_server_register_method("pm", "sleep", METHOD_WRITE, __plugin_pm_sleep, NULL, arg_types);
+                                                                                               ^
+../../node_main/plugins.cpp:161:95: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../node_main/plugins.cpp:164:112: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     rpc_server_register_method("pm", "power_grove", METHOD_WRITE, __plugin_pm_power_the_groves, NULL, arg_types);
+                                                                                                                ^
+../../node_main/plugins.cpp:164:112: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../node_main/plugins.cpp:169:117: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     rpc_server_register_method("setting", "dataxserver", METHOD_WRITE, __plugin_setting_dataxserver, NULL, arg_types);
+                                                                                                                     ^
+../../node_main/plugins.cpp:169:117: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o ota.cpp.o ../../node_main/ota.cpp
+In file included from ../../rpc_server/rpc_stream.h:26:0,
+                 from ../../node_main/ota.cpp:25:
+../../suli/suli2.h:51:18: warning: extra tokens at end of #ifndef directive [enabled by default]
+ #ifndef constrain(amt,low,high)
+                  ^
+../../node_main/ota.cpp: In function 'void ota_response(void*)':
+../../node_main/ota.cpp:57:42: warning: invalid conversion from 'void*' to 'upgrade_server_info*' [-fpermissive]
+     struct upgrade_server_info *server = arg;
+                                          ^
+../../node_main/ota.cpp: In function 'void ota_start()':
+../../node_main/ota.cpp:98:48: warning: invalid conversion from 'uint8_t* {aka unsigned char*}' to 'char*' [-fpermissive]
+     char *esp_server_ip = (EEPROM.getDataPtr() + EEP_OTA_SERVER_IP);
+                                                ^
+../../node_main/ota.cpp:125:69: warning: invalid conversion from 'char*' to 'unsigned char*' [-fpermissive]
+     if(base64_encode(sn, &len, EEPROM.getDataPtr()+EEP_OFFSET_SN, 32) != 0)
+                                                                     ^
+In file included from ../../node_main/ota.cpp:26:0:
+../../node_main/polarssl/base64.h:51:5: warning:   initializing argument 1 of 'int base64_encode(unsigned char*, size_t*, const unsigned char*, size_t)' [-fpermissive]
+ int base64_encode( unsigned char *dst, size_t *dlen,
+     ^
+../../node_main/ota.cpp:125:69: warning: invalid conversion from 'int*' to 'size_t* {aka unsigned int*}' [-fpermissive]
+     if(base64_encode(sn, &len, EEPROM.getDataPtr()+EEP_OFFSET_SN, 32) != 0)
+                                                                     ^
+In file included from ../../node_main/ota.cpp:26:0:
+../../node_main/polarssl/base64.h:51:5: warning:   initializing argument 2 of 'int base64_encode(unsigned char*, size_t*, const unsigned char*, size_t)' [-fpermissive]
+ int base64_encode( unsigned char *dst, size_t *dlen,
+     ^
+../../node_main/ota.cpp:134:91: warning: invalid conversion from 'uint8* {aka unsigned char*}' to 'char*' [-fpermissive]
+                OTA_SERVER_URL_PREFIX, bin_num, sn, IP2STR(upServer->ip), OTA_DOWNLOAD_PORT);
+                                                                                           ^
+In file included from ../../node_main/esp8266.h:34:0,
+                 from ../../node_main/ota.cpp:23:
+../../esp8266_sdk/include/ets_sys.h:171:5: warning:   initializing argument 1 of 'int ets_sprintf(char*, const char*, ...)' [-fpermissive]
+ int ets_sprintf(char *str, const char *format, ...)  __attribute__ ((format (printf, 2, 3)));
+     ^
+../../node_main/ota.cpp:138:46: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     response_msg_open(STREAM_CMD,"ota_status");
+                                              ^
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o suli2.cpp.o ../../suli/suli2.cpp
+In file included from ../../suli/suli2.cpp:42:0:
+../../suli/suli2.h:51:18: warning: extra tokens at end of #ifndef directive [enabled by default]
+ #ifndef constrain(amt,low,high)
+                  ^
+../../suli/suli2.cpp: In function 'void suli_timer_install(TIMER_T*, uint32_t, timer_callback_t, void*, bool)':
+../../suli/suli2.cpp:381:116: warning: default argument given for parameter 5 of 'void suli_timer_install(TIMER_T*, uint32_t, timer_callback_t, void*, bool)' [-fpermissive]
+ void suli_timer_install(TIMER_T *timer, uint32_t microseconds, timer_callback_t cb, void *data, bool repeat = false)
+                                                                                                                    ^
+In file included from ../../suli/suli2.cpp:42:0:
+../../suli/suli2.h:450:6: warning: after previous specification in 'void suli_timer_install(TIMER_T*, uint32_t, timer_callback_t, void*, bool)' [-fpermissive]
+ void suli_timer_install(TIMER_T *timer, uint32_t microseconds, timer_callback_t cb, void *data, bool repeat = false);
+      ^
+../../suli/suli2.cpp: In function 'void suli_soft_timer_install(TIMER_T*, uint32_t, timer_callback_t, void*, bool)':
+../../suli/suli2.cpp:520:49: warning: default argument given for parameter 5 of 'void suli_soft_timer_install(TIMER_T*, uint32_t, timer_callback_t, void*, bool)' [-fpermissive]
+                              bool repeat = false)
+                                                 ^
+In file included from ../../suli/suli2.cpp:42:0:
+../../suli/suli2.h:489:6: warning: after previous specification in 'void suli_soft_timer_install(TIMER_T*, uint32_t, timer_callback_t, void*, bool)' [-fpermissive]
+ void suli_soft_timer_install(TIMER_T *timer, uint32_t milliseconds, timer_callback_t cb, void *data, bool repeat = false);
+      ^
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o rpc_server.cpp.o ../../rpc_server/rpc_server.cpp
+In file included from ../../rpc_server/rpc_stream.h:26:0,
+                 from ../../rpc_server/rpc_server.cpp:24:
+../../suli/suli2.h:51:18: warning: extra tokens at end of #ifndef directive [enabled by default]
+ #ifndef constrain(amt,low,high)
+                  ^
+../../rpc_server/rpc_server.cpp: In function 'void rpc_server_unregister_all()':
+../../rpc_server/rpc_server.cpp:103:23: warning: deleting 'void*' is undefined [enabled by default]
+         delete p_res->class_ptr;
+                       ^
+../../rpc_server/rpc_server.cpp: In member function 'void RPCStreamProcessor::process_stream()':
+../../rpc_server/rpc_server.cpp:243:60: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+                     response_msg_open(stream_id, "resp_get");
+                                                            ^
+../../rpc_server/rpc_server.cpp:251:61: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+                     response_msg_open(stream_id, "resp_post");
+                                                             ^
+../../rpc_server/rpc_server.cpp:257:64: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+                     response_msg_open(stream_id, "ota_trig_ack");
+                                                                ^
+../../rpc_server/rpc_server.cpp:266:60: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+                     response_msg_open(stream_id, "resp_app");
+                                                            ^
+../../rpc_server/rpc_server.cpp: In function 'void drain_event_queue()':
+../../rpc_server/rpc_server.cpp:526:46: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         response_msg_open(STREAM_DATA,"event");
+                                              ^
+../../rpc_server/rpc_server.cpp: In function 'int rpc_server_event_put_data(event_t*, void*, int)':
+../../rpc_server/rpc_server.cpp:582:33: warning: invalid conversion from 'void*' to 'char*' [-fpermissive]
+         event->event_data.p_str = p_data;
+                                 ^
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o rpc_stream.cpp.o ../../rpc_server/rpc_stream.cpp
+In file included from ../../rpc_server/rpc_stream.h:26:0,
+                 from ../../rpc_server/rpc_stream.cpp:22:
+../../suli/suli2.h:51:18: warning: extra tokens at end of #ifndef directive [enabled by default]
+ #ifndef constrain(amt,low,high)
+                  ^
+../../rpc_server/rpc_stream.cpp: In function 'char stream_read(int)':
+../../rpc_server/rpc_stream.cpp:43:19: warning: converting to non-pointer type 'char' from NULL [-Wconversion-null]
+     } else return NULL;
+                   ^
+../../rpc_server/rpc_stream.cpp: In function 'int stream_print(int, type_t, const void*)':
+../../rpc_server/rpc_stream.cpp:106:48: warning: passing NULL to non-pointer argument 2 of 'char* dtostrf(double, signed char, unsigned char, char*)' [-Wconversion-null]
+         dtostrf((*(float *)data), NULL, 2, buff);
+                                                ^
+../../rpc_server/rpc_stream.cpp:109:26: warning: invalid conversion from 'const void*' to 'const char*' [-fpermissive]
+         len = strlen(data);
+                          ^
+../../rpc_server/rpc_stream.cpp: In function 'void response_msg_open(int, char*)':
+../../rpc_server/rpc_stream.cpp:134:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     char *msg1 = "{\"msg_type\":\"";
+                  ^
+../../rpc_server/rpc_stream.cpp:135:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     char *msg2 = "\", \"msg\":";
+                  ^
+../../rpc_server/rpc_stream.cpp: In function 'void response_msg_append_400(int)':
+../../rpc_server/rpc_stream.cpp:144:17: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     char *msg = ", \"status\": 400";
+                 ^
+../../rpc_server/rpc_stream.cpp: In function 'void response_msg_append_404(int)':
+../../rpc_server/rpc_stream.cpp:150:17: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     char *msg = ", \"status\": 404";
+                 ^
+../../rpc_server/rpc_stream.cpp: In function 'void response_msg_close(int)':
+../../rpc_server/rpc_stream.cpp:157:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     char *msg3 = "}\r\n";
+                  ^
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o Main.cpp.o Main.cpp
+In file included from ../../node_main/wio.h:25:0,
+                 from Main.cpp:1:
+../../suli/suli2.h:51:18: warning: extra tokens at end of #ifndef directive [enabled by default]
+ #ifndef constrain(amt,low,high)
+                  ^
+In file included from ../../node_main/wio.h:25:0,
+                 from Main.cpp:1:
+../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.h: In member function 'EVENT_T* GroveSlidePotentiometer::attach_event_reporter_for_slide_changed(event_callback_t)':
+../../suli/suli2.h:383:86: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         suli_event_init(&event_##EVENT_NAME , reporter, #EVENT_NAME , EVENT_DATA_TYPE); \
+                                                                                      ^
+../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.h:70:5: note: in expansion of macro 'DEFINE_EVENT'
+     DEFINE_EVENT(slide_changed, SULI_EDT_INT);
+     ^
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o rpc_server_registration.cpp.o rpc_server_registration.cpp
+In file included from rpc_server_registration.cpp:1:0:
+../../suli/suli2.h:51:18: warning: extra tokens at end of #ifndef directive [enabled by default]
+ #ifndef constrain(amt,low,high)
+                  ^
+In file included from rpc_server_registration.cpp:1:0:
+../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.h: In member function 'EVENT_T* GroveSlidePotentiometer::attach_event_reporter_for_slide_changed(event_callback_t)':
+../../suli/suli2.h:383:86: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         suli_event_init(&event_##EVENT_NAME , reporter, #EVENT_NAME , EVENT_DATA_TYPE); \
+                                                                                      ^
+../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.h:70:5: note: in expansion of macro 'DEFINE_EVENT'
+     DEFINE_EVENT(slide_changed, SULI_EDT_INT);
+     ^
+rpc_server_registration.cpp: In function 'void rpc_server_register_resources()':
+rpc_server_registration.cpp:17:165: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     rpc_server_register_method("GroveSlidePotentiometerA0", "analog", METHOD_READ, __grove_slide_potentiometer_read_analog, GroveSlidePotentiometerA0_ins, arg_types);
+                                                                                                                                                                     ^
+rpc_server_registration.cpp:17:165: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+rpc_server_registration.cpp:19:167: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     rpc_server_register_method("GroveSlidePotentiometerA0", "voltage", METHOD_READ, __grove_slide_potentiometer_read_voltage, GroveSlidePotentiometerA0_ins, arg_types);
+                                                                                                                                                                       ^
+rpc_server_registration.cpp:19:167: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+xtensa-lx106-elf-g++ -c -Os -O2 -mlongcalls -mtext-section-literals -fno-exceptions -fno-rtti -falign-functions=4 -fpermissive -std=c++11 -MMD -DICACHE_FLASH -DF_CPU=80000000 -D__ets__ -U__STRICT_ANSI__ -DARDUINO=10604 -DARDUINO_ESP8266_ESP12 -DARDUINO_ARCH_ESP8266 -DESP8266 -DESP8266_SEEED_NODE -DNODE_NAME="\"esp8266_node\"" -DFUNCTION_KEY=0 -DSTATUS_LED=2 -DSWITCH_GROVE_POWER=15 -I. -I../.. -I../../esp8266_sdk/include -I../../suli -I../../rpc_server -I../../esp8266_arduino -I../../esp8266_arduino/spiffs -I../../node_main -I../../node_main/polarssl -I../../grove_drivers/grove_slide_potentiometer -I./ -o grove_slide_potentiometer_gen.cpp.o grove_slide_potentiometer_gen.cpp
+In file included from ../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.h:33:0,
+                 from grove_slide_potentiometer_gen.h:1,
+                 from grove_slide_potentiometer_gen.cpp:1:
+../../suli/suli2.h:51:18: warning: extra tokens at end of #ifndef directive [enabled by default]
+ #ifndef constrain(amt,low,high)
+                  ^
+In file included from ../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.h:33:0,
+                 from grove_slide_potentiometer_gen.h:1,
+                 from grove_slide_potentiometer_gen.cpp:1:
+../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.h: In member function 'EVENT_T* GroveSlidePotentiometer::attach_event_reporter_for_slide_changed(event_callback_t)':
+../../suli/suli2.h:383:86: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         suli_event_init(&event_##EVENT_NAME , reporter, #EVENT_NAME , EVENT_DATA_TYPE); \
+                                                                                      ^
+../../grove_drivers/grove_slide_potentiometer/grove_slide_potentiometer.h:70:5: note: in expansion of macro 'DEFINE_EVENT'
+     DEFINE_EVENT(slide_changed, SULI_EDT_INT);
+     ^
+xtensa-lx106-elf-ar cru user_code_pack.a core_esp8266_noniso.o core_esp8266_wiring_pulse.o core_esp8266_wiring_shift.o cont_util.o core_esp8266_wiring.o core_esp8266_wiring_analog.o core_esp8266_si2c.o core_esp8266_timer.o core_esp8266_wiring_digital.o core_esp8266_wiring_pwm.o libc_replacements.o cont.o WString.cpp.o core_esp8266_main.cpp.o Print.cpp.o pgmspace.cpp.o Stream.cpp.o abi.cpp.o Esp.cpp.o Wire.cpp.o WMath.cpp.o debug.cpp.o HardwareSerial.cpp.o  grove_slide_potentiometer.cpp.o sha256.o md5.o base64.o aes.o bignum.o network.cpp.o eeprom.cpp.o circular_buffer.cpp.o wio.cpp.o user_main.cpp.o plugins.cpp.o ota.cpp.o suli2.cpp.o rpc_server.cpp.o rpc_stream.cpp.o  rpc_server_registration.cpp.o Main.cpp.o grove_slide_potentiometer_gen.cpp.o
+xtensa-lx106-elf-gcc -nostdlib -Wl,--no-check-sections -u call_user_start -Wl,-static -L../../esp8266_sdk/lib -L../../esp8266_sdk/ld -L../ -T../../esp8266_sdk/ld/eagle.app.v6.new.2048.ld -Wl,--start-group user_code_pack.a -lm -lgcc -lhal -lphy -lpp -lnet80211 -llwip -lwpa -lmain -lupgrade -Wl,--end-group -o user2.elf
+
+**********************
+     Link Done
+
+   text	   data	    bss	    dec	    hex	filename
+ 266608	   5488	  43144	 315240	  4cf68	user2.elf
+**********************
+stat: invalid option -- '%'
+Try 'stat --help' for more information.
+.irom0.text size: 
+stat: invalid option -- '%'
+Try 'stat --help' for more information.
+.text size: 
+
+**********************
+ Gen Sections' Binary
+**********************
+!!!user bin  2  !!!
+Support boot_v1.4 and +
+Generate user2.bin successully.
+boot.bin------------>0x00000
+user2.bin--->0x101000
