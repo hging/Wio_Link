@@ -774,7 +774,7 @@ xtensa-lx106-elf-gcc -nostdlib -Wl,--no-check-sections -u call_user_start -Wl,-s
      Link Done
 
    text	   data	    bss	    dec	    hex	filename
- 266608	   5488	  43144	 315240	  4cf68	user2.elf
+ 266640	   5488	  43144	 315272	  4cf88	user2.elf
 **********************
 stat: invalid option -- '%'
 Try 'stat --help' for more information.
